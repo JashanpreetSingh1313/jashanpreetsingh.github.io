@@ -1,40 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Agent's who clean </title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="sidebar">
-    <img src="images/your-photo.jpg" alt="Your Photo">
-    <h2>ABOUT</h2>
-    <nav>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#certs">Certifications</a>
-    </nav>
-  </div>
-  <div class="content">
-    <h1> ᴊᴀꜱʜᴀɴᴘʀᴇᴇᴛ <span style="color:green"> ꜱɪɴɢʜ </span></h1>
-    <p>Network & Systems Administrator | AZ-104 | Linux | Proxmox | Windows | Comptia Security+ </p>
-    <p>I am a dedicated and certified IT professional, holding both the CompTIA Security+ and Microsoft Azure Administrator (AZ-104) certifications. </p>
-      
-      </p>With a strong foundation in cybersecurity and cloud administration, I am passionate about securing digital environments and optimizing cloud infrastructure.</p> 
-       </p> Currently, I am expanding my knowledge by exploring advanced concepts in networking, cloud security, and system automation to stay ahead in the ever-evolving tech landscape. </p>
-       </p>  I believe in continuous learning and strive to bring both technical skill and strategic thinking to every project I work on.</p>
 
-. </p>
-    <div class="social-icons">
-      <a href="https://linkedin.com/in/jashanpreetsingh13" target="_blank">LinkedIn</a>
-      <a href="https://jashanpreetsingh1313.github.io/jashanpreetsingh.github.io/" target="_blank">GitHub</a>
-    </div>
-  </div>
+
+<!-- Contact / Form -->
+<section id="contact" class="section alt">
+<div class="container">
+<h2 class="section-title">Get a Free Quote</h2>
+<form class="card form" name="quote" method="POST" data-netlify="true">
+<input type="hidden" name="form-name" value="quote" />
+<div class="grid two">
+<label> Full name
+<input id="name" name="name" required placeholder="Jane Doe" />
+</label>
+<label> Email
+<input type="email" name="email" required placeholder="you@example.com" />
+</label>
+<label> Phone
+<input name="phone" required placeholder="(204) 555‑0123" />
+</label>
+<label> Address (optional)
+<input name="address" placeholder="Neighborhood or street" />
+</label>
+<label> Service type
+<select name="service">
+<option>Standard Cleaning</option>
+<option>Deep Cleaning</option>
+<option>Move‑In / Move‑Out</option>
+<option>Office / Commercial</option>
+</select>
+</label>
+<label> Frequency
+<select name="frequency">
+<option>One‑time</option>
+<option>Weekly</option>
+<option>Bi‑weekly</option>
+<option>Monthly</option>
+</select>
+</label>
+<label class="full"> Message
+<textarea name="message" rows="4" placeholder="Tell us about your space…"></textarea>
+</label>
+</div>
+<button class="btn" type="submit">Request Quote</button>
+</form>
+</div>
+</section>
+
+
+<!-- Footer -->
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<strong>Night Agents Cleaning</strong>
+<p class="muted">Winnipeg, Manitoba • Mon–Sat 8am–8pm</p>
+</div>
+<div class="right">
+<a href="tel:+14319906301">Call: (431) 990‑6301</a>
+<a href="mailto:info@nightagents.agency">info@nightagents.agency</a>
+</div>
+</div>
+</footer>
+
+
+<!-- Simple mobile menu toggle -->
+<script>
+const btn = document.querySelector('.hamburger');
+const menu = document.querySelector('.menu');
+btn.addEventListener('click', () => menu.classList.toggle('open'));
+</script>
 </body>
 </html>
+
 
 
 
