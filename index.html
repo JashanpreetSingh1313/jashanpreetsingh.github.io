@@ -9,13 +9,13 @@
 <input type="hidden" name="form-name" value="quote" />
 <div class="grid two">
 <label> Full name
-<input id="name" name="name" required placeholder="Jane Doe" />
+<input id="name" name="name" required placeholder="Full name" />
 </label>
 <label> Email
-<input type="email" name="email" required placeholder="you@example.com" />
+<input type="email" name="email" required placeholder="please provide email" />
 </label>
 <label> Phone
-<input name="phone" required placeholder="(204) 555‑0123" />
+<input name="phone" required placeholder="Phone number" />
 </label>
 <label> Address (optional)
 <input name="address" placeholder="Neighborhood or street" />
@@ -37,7 +37,7 @@
 </select>
 </label>
 <label class="full"> Message
-<textarea name="message" rows="4" placeholder="Tell us about your space…"></textarea>
+<textarea name="message" rows="2" placeholder="Tell us about your space…"></textarea>
 </label>
 </div>
 <button class="btn" type="submit">Request Quote</button>
@@ -51,6 +51,7 @@
 <div class="container footer-grid">
 <div>
 <strong>Night Agents Cleaning</strong>
+<light> We don't leave any proof. </light>
 <p class="muted">Winnipeg, Manitoba • Mon–Sat 8am–8pm</p>
 </div>
 <div class="right">
@@ -69,6 +70,7 @@ btn.addEventListener('click', () => menu.classList.toggle('open'));
 </script>
 </body>
 </html>
+
 
 
 
